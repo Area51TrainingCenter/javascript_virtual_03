@@ -1,0 +1,5 @@
+// obtiene todos los sitios turisticos
+//http://sminnova.com/restapitrujillo/sitiosturisticos
+
+// obtiene sitios turisticos por id
+//http://sminnova.com/restapitrujillo/sitiosturisticos/id/54
