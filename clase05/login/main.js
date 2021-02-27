@@ -3,9 +3,10 @@ validarEstadoLogin();
 let correo=document.getElementById("inp-correo")
 let password=document.getElementById("inp-password")
 let login=document.getElementById("inp-login");
-
+let login=new login();
 login.addEventListener("click",()=>{
 
+    
     loginWebService(correo.value,password.value)
 })
 
