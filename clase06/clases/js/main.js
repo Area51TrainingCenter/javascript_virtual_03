@@ -14,7 +14,7 @@ obj_producto.dato_tienda="Lima"
 console.log(obj_producto.dato_tienda);
 
 console.log(Producto.obtenerNombreStatico())
-/*
+
 // Instanciando la clases
 let helper=new Helper();
 
@@ -25,4 +25,4 @@ console.log(helper.convertirMayusculas("juan carlos"))
 
 
 console.log(HelperFecha.obtenerHoraActual());
-console.log(HelperFecha.obtenerFechaActual())*/
+console.log(HelperFecha.obtenerFechaActual());

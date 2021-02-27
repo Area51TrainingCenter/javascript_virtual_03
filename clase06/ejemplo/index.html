@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formulario-caja{
+            font-family: arial;
+            width: 300px;
+            margin:100px auto;
+        }
+        .formulario-caja form{
+            width: 100%;
+        }
+        .formulario-caja form label{
+            width: 100%;
+            display: block;
+            margin-bottom: 5px;
+            
+        }
+        .formulario-caja form input{
+            width: 100%;
+            margin-bottom: 25px;
+            padding: 5px;
+            font-size: 17px;
+            display: block;
+            border: 0px;
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+        .formulario-caja form button{
+            display: block;
+            padding:10px; 
+            background-color: royalblue;
+            color: white;
+            width: 100%;
+            border: 0px;
+            font-size: 17px;
+            cursor: pointer;;
+        }
+        #error{
+            color: red;
+            margin-top: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="formulario-caja">
+    <form action="">
+        <div>
+            <label for="">Correo</label>
+            <input type="text" id="inp-correo" name="correo">
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" id="inp-password" name="password">
+        </div>
+        <button type="button" id="inp-login">Login</button>
+        <div id="error"></div>
+        <h2 id="mensaje_error"></h2>
+    </form>
+</div>
+<script src="js/clases/login.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
