@@ -1,0 +1,22 @@
+
+.categorias{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+}
+.categorias div{
+    flex-grow: 1;
+    margin-left: 1px;
+    margin-right: 1px;
+    min-height: 40px;
+    background-color: blue;
+    
+}
+
+.bar-regresar{
+min-height:50px;
+background-color: black;
+margin-bottom: 10px;
+}
