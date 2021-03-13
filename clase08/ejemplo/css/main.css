@@ -20,3 +20,20 @@ min-height:50px;
 background-color: black;
 margin-bottom: 10px;
 }
+
+.listado{
+    overflow-y: scroll;
+
+   height: calc(100vh - 120px);
+  
+}
+
+.foto{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.media{
+    margin-bottom: 10px;
+}
