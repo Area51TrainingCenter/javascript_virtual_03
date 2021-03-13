@@ -33,4 +33,8 @@ class ServiciosSitios{
         let resultado=await contenido.json();
         return resultado;
     }
+
+    async getSitioPorID(id){
+        let url="http://sminnova.com/restapitrujillo/sitiosturisticos/id/"+id
+    }
 }
